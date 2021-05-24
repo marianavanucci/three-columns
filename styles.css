@@ -1,0 +1,48 @@
+html{
+    height: 100%;
+     }
+
+    html,body{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+
+    }
+
+
+.container{
+    background-color: violet;
+    min-width: 375px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: stretch; */
+
+}
+
+.sedan{
+background-color: Bright orange;
+width: 33,33%;
+height: 33,33%;
+}
+
+.suvs{
+background-color: Dark cyan;
+width: 33,33%;
+height: 33,33%;
+}
+
+.luxury{
+background-color: darkcyan;
+width: 33,33%;
+height: 33,33%;
+}
+
+@media screen and (min-width: 1024px) {
+.container{
+    display: flex;
+    flex-direction: row;
+}
+    }
