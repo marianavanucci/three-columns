@@ -4,16 +4,16 @@
 
 The designs were created to the following widths:
 
-- Mobile: 375px
-- Desktop: 1440px
+- Mobile: 375px **OK**
+- Desktop: 1440px **OK**
 
 ## Colors
 
 ### Primary
 
-Bright orange: hsl(31, 77%, 52%)
-Dark cyan: hsl(184, 100%, 22%)
-Very dark cyan: hsl(179, 100%, 13%)
+Bright orange: hsl(31, 77%, 52%)  **OK**
+Dark cyan: hsl(184, 100%, 22%)  **OK**
+Very dark cyan: hsl(179, 100%, 13%) **OK**
 
 ### Neutral
 
@@ -24,12 +24,12 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 
 ### Body Copy
 
-- Font size: 15px
+- Font size: 15px **OK**
 
 ### Font
 
 - Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
-- Weights: 400
+- Weights: 400 **OK**
 
 - Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
-- Weights: 700
+- Weights: 700 **OK**

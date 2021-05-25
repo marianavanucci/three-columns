@@ -1,0 +1,50 @@
+Hue, Saturation, Lightness: HSL
+===============================
+
+hue=> matiz, tonalidade
+é um sistema de cores
+
+IMAGEM SCALABLE VECTOR GRAPHICS: SGV
+====================================
+
+<img src="imagem.svg" alt="descrição">
+
+BASE FLEXBOX
+============
+
+
+html,body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /*mostra container*/
+}
+
+
+.container{
+    background-color: hsl(300, 76%, 72%);
+    height: 100%;
+    /* min-width: 375px;
+    max-width: 1200px; */
+    width: 100%;
+}
+
+.sedans{
+background-color: hsl(31, 77%, 52%);
+}
+
+.suvs{
+background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+background-color: hsl(179, 100%, 13%));
+}
+
+@media screen and (min-width: 700px) {
+.container{
+    display: flex;
+    flex-direction: row;
+}
+    }

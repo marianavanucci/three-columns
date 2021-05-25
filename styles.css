@@ -1,46 +1,142 @@
-html{
-    height: 100%;
-     }
-
-    html,body{
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-
-    }
-
-
-.container{
-    background-color: violet;
-    min-width: 375px;
+html,body{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: stretch; */
-
+    justify-content:start;
+    align-items: center;
+    height: 100%; /*mostra container*/
 }
 
-.sedan{
-background-color: Bright orange;
-width: 33,33%;
-height: 33,33%;
-}
+    .container{
+        background-color: hsl(168, 23%, 55%);
+        height: 100%;
+        max-height: 500px;
+        max-width: 1000px;
+        /* min-width: 375px;
+        max-width: 1200px; */
+        width: 100%;
+        color: hsl(0, 0%, 100%);
+    }
 
-.suvs{
-background-color: Dark cyan;
-width: 33,33%;
-height: 33,33%;
-}
+        .sedans{
+        background-color: hsl(31, 77%, 52%);
+        padding:40px;
+        }
 
-.luxury{
-background-color: darkcyan;
-width: 33,33%;
-height: 33,33%;
-}
+            .sedans h2{
+                font-size: 35px;
+                font-weight: lighter; /*como fazer mais fino?*/
+                text-transform: uppercase;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                /*como esticar a letra do titulo?*/
+                font-family: 'Big Shoulders Display', cursive;
+            }
 
-@media screen and (min-width: 1024px) {
+            .sedans p{
+                font-size: 12px;
+                line-height: 20px;
+                letter-spacing: 1px;
+                padding-bottom: 30px;
+                font-family: 'Lexend Deca', sans-serif;
+            }
+
+            .sedans-learn-more{
+                background-color:hsl(31, 77%, 52%);
+                color: hsl(0, 0%, 100%);/*como colocar transparente?*/
+                border: hsl(0, 0%, 100%) solid 2px;
+                padding: 20px;
+                border-radius: 30px;
+                font-size: 14px ;
+                font-weight: 600;
+                width: 60%;
+                cursor: pointer;
+            }
+
+            .sedans-learn-more:rover {
+                background-color: hsl(0, 0%, 100%);
+                color: hsl(31, 77%, 52%);
+            }/*não funcionou*/
+
+        .suvs{
+        background-color: hsl(184, 100%, 22%);
+        padding:40px;
+        }
+
+            .suvs h2{
+                font-size: 35px;
+                font-weight: lighter; /*como fazer mais fino?*/
+                text-transform: uppercase;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                /*como esticar a letra do titulo?*/
+                font-family: 'Big Shoulders Display', cursive;
+            }
+
+            .suvs p{
+                font-size: 12px;
+                line-height: 20px;
+                letter-spacing: 1px;
+                padding-bottom: 30px;
+                font-family: 'Lexend Deca', sans-serif;
+            }
+
+            .suvs-learn-more{
+                background-color: hsl(184, 100%, 22%);
+                color: hsl(0, 0%, 100%);/*como colocar transparente?*/
+                border: hsl(0, 0%, 100%) solid 2px;
+                padding: 20px;
+                border-radius: 30px;
+                font-size: 14px ;
+                font-weight: 600;
+                width: 60%;
+                cursor: pointer;
+            }
+
+            .suvs-learn-more:rover {
+                background-color: hsl(0, 0%, 100%);
+                color:  hsl(184, 100%, 22%);
+            }/*não funcionou*/
+
+        .luxury{
+        background-color: hsl(179, 100%, 13%);
+        padding:40px;
+        }
+            .luxury h2{
+                font-size: 35px;
+                font-weight: lighter; /*como fazer mais fino?*/
+                text-transform: uppercase;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                /*como esticar a letra do titulo?*/
+                font-family: 'Big Shoulders Display', cursive;
+            }
+
+            .luxury p{
+                font-size: 12px;
+                line-height: 20px;
+                letter-spacing: 1px;
+                padding-bottom: 30px;
+                font-family: 'Lexend Deca', sans-serif;
+            }
+
+            .luxury-learn-more{
+                background-color:hsl(179, 100%, 13%);
+                color: hsl(0, 0%, 100%);/*como colocar transparente?*/
+                border: hsl(0, 0%, 100%) solid 2px;
+                padding: 20px;
+                border-radius: 30px;
+                font-size: 14px ;
+                font-weight: 600;
+                width: 60%;
+                cursor: pointer;
+            }
+
+            .luxury-learn-more:rover {
+                background-color: hsl(0, 0%, 100%);
+                color: hsl(179, 100%, 13%);
+            }/*não funcionou*/
+
+@media screen and (min-width: 420px) {
 .container{
     display: flex;
     flex-direction: row;
